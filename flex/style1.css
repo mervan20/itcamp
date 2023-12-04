@@ -4,7 +4,7 @@ body {
 	height: 100vh;
 }
 .container {
-	background-color: #1a3250;
+	background-image: url(sergej.jpg);
 	width: 100%;
 	height: 100%;
 }
@@ -16,7 +16,7 @@ body {
 	background-color: #88aa33;
 	display: flex;
 	align-items: center;
-	justify-content: end;
+	justify-content: left;
 }
 .ski {
 	font-size: 40px;
@@ -32,7 +32,7 @@ body {
 	height: 200px;
 	display: none;
 	position: absolute;
-	left: -250px;
+	left: 0px;
 }
 .ski:hover .dropdownmenu {
 	display: block;
